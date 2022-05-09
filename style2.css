@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Rubik+Wet+Paint&family=Shadows+Into+Light&display=swap');
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    --border: 2px solid white;
+    width: 100%;
+    height: 30px;
+}
+
+#titulo {
+    color: red;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 5em;
+}
+
+.historia, .transicao {
+    font-family: 'Shadows Into Light', cursive;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    --border: 2px solid white;
+    font-size: 20   px;
+}
+
+.transicao{
+    width: 500px;
+    flex-direction: column;
+}
+
+p {
+    width: auto;
+    font-size: 18px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.albun {
+    border: 2px solid white;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 400px;
+}
+
+footer {
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: wheat;
+}
